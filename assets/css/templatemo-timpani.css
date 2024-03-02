@@ -110,12 +110,12 @@ body {
 }
 
 ::selection {
-  background: #ff3902;
+  background: #3C9EFF;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff3902;
+  background: #3C9EFF;
   color: #fff;
 }
 
@@ -139,7 +139,7 @@ a.additional-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #ff3902;
+  background-color: #3C9EFF;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -151,14 +151,14 @@ a.additional-button-slider {
 }
 
 a.additional-button-slider:hover {
-  background-color: #ff3902;
+  background-color: #3C9EFF;
 }
 
 a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #221b32;
+  background-color: #FF445D;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -177,7 +177,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #221b32;
+  background-color: #FF445D;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -189,7 +189,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #221b32;
+  background-color: #FF445D;
 }
 
 button.main-button {
@@ -199,7 +199,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #221b32;
+  background-color: #FF445D;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -211,7 +211,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #221b32;
+  background-color: #FF445D;
 }
 
 
@@ -230,7 +230,7 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #e0b9a3;
+  color: #96CFFF;
 }
 
 .center-heading p {
@@ -262,11 +262,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #ff3902!important;
+  color: #3C9EFF!important;
 }
 
 .background-header .nav li a.active {
-  color: #ff3902!important;
+  color: #3C9EFF!important;
 }
 
 .header-area {
@@ -343,7 +343,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #e0b9a3;
+  color: #96CFFF;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -408,12 +408,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #e0b9a3;
+  background: #96CFFF;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #e0b9a3!important;
+  color: #96CFFF!important;
   padding-left: 25px;
 }
 
@@ -549,7 +549,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #e0b9a3;
+  color: #96CFFF;
 }
 
 @media (max-width: 1200px) {
@@ -617,7 +617,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #e0b9a3!important;
+    color: #96CFFF!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -694,7 +694,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #ff3902;
+  color: #3C9EFF;
 }
 
 .welcome-area .header-text p {
@@ -785,7 +785,7 @@ about
   left: 45px;
   font-size: 100px;
   font-weight: 600;
-  color: #E0B9A33C;
+  color: #96CFFF3C;
 }
 
 .features-item img {
@@ -887,8 +887,8 @@ testimonials
 }
 
 #testimonials .item .testimonial-content {
-  background: #e0b9a3;
-  background: linear-gradient(145deg, #f2e2d9 0%, #e0b9a3 100%);
+  background: #96CFFF;
+  background: linear-gradient(145deg, #E4F3FF 0%, #96CFFF 100%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
@@ -901,25 +901,25 @@ testimonials
 }
 
 #testimonials .item .testimonial-content ul li i {
-  color: #fff;
+  color: #000;
   font-size: 13px;
 }
 
 #testimonials .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
-  color: #fff;
+  color: #000;
 }
 
 #testimonials .item .testimonial-content p {
-  color: #fff;
+  color: #000;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
 #testimonials .item .testimonial-content span {
-  color: #fff;
+  color: #000;
   font-weight: 200;
   font-size: 13px;
 }
@@ -934,15 +934,15 @@ testimonials
   top: 45%;
   border-radius: 10px;
   font-size: 46px;
-  color: #fff;
+  color: #000;
   right: -210px;
   width: 80px;
   height: 80px;
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: #e0b9a3;
-  background: linear-gradient(145deg, #f2e2d9 0%, #e0b9a3 100%);
+  background: #96CFFF;
+  background: linear-gradient(145deg, #E4F3FF 0%, #96CFFF 100%);
   position: absolute;
 }
 
@@ -951,15 +951,15 @@ testimonials
   top: 30%;
   border-radius: 10px;
   font-size: 46px;
-  color: #fff;
+  color: #000;
   right: -150px;
   width: 80px;
   height: 80px;
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: #e0b9a3;
-  background: linear-gradient(145deg, #f2e2d9 0%, #e0b9a3 100%);
+  background: #96CFFF;
+  background: linear-gradient(145deg, #E4F3FF 0%, #96CFFF 100%);
   position: absolute;
 }
 
@@ -1060,7 +1060,7 @@ footer .right-content {
 }
 
 .footer-content .right-content {
-  color: #fff;
+  color: #ff445d;
 }
 
 .footer-content .right-content h2 {
@@ -1078,15 +1078,15 @@ footer .right-content {
 }
 
 .footer-content .right-content p {
-  color: #FFF;
+  color: #000;
 }
 
 .footer-content .right-content a {
-  color: #FFF;
+  color: #ff445d;
 }
 
 .footer-content .right-content a:hover {
-  color: #FC3;
+  color: #F8D248;
 }
 
 footer .social {
@@ -1104,10 +1104,10 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #fff;
+  color: #ff445d;
   text-align: center;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #ff445d;
   width: 44px;
   height: 44px;
   line-height: 44px;
@@ -1121,8 +1121,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff3902;
-  border-color: #ff3902;
+  background-color: #3C9EFF;
+  border-color: #3C9EFF;
   color: #fff;
 }
 
@@ -1142,15 +1142,15 @@ footer .sub-footer {
 }
 
 footer .sub-footer a {
-	color: #FFF;
+	color: #ff445d;
 }
 
 footer .sub-footer a:hover {
-	color: #FC3;
+	color: #F8D248;
 }
 
 footer .sub-footer p {
-  color: #fff;
+  color: #ff445d;
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -1172,7 +1172,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #f2e2d9 0%, #e0b9a3 100%);
+  background-image: linear-gradient(145deg, #E4F3FF 0%, #96CFFF 100%);
   left: 0;
   right: 0;
   top: 0;

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: https://timpani.ember-llc.com/sitemap.xml

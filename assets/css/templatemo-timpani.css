@@ -308,7 +308,7 @@ header
   margin-left: 15%;
   margin-right: 0px;
   background-color: #fff;
-  padding: 0px 20px;
+  padding: 0px 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -755,6 +755,194 @@ welcome
 
 /*
 ---------------------------------------------
+privacy
+---------------------------------------------
+*/
+.privacy-area {
+  min-height: 550px;
+  /*background-image: url(../images/banner-bg.png);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: left top;*/
+  background-image: url(../images/banner-bg-generic-2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  /*background-size: cover;*/
+  width: 100%;
+}
+
+.privacy-area .header-text .left-text {
+  position: relative;
+  align-self: center;
+  margin-top: 100%;
+  transform: perspective(1px) translateY(-30%) !important;
+}
+
+.privacy-area .header-text h1 {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #191a20;
+}
+
+.privacy-area .header-text h1 em {
+  font-style: normal;
+  color: #3C9EFF;
+}
+
+.privacy-area .header-text p {
+  font-weight: 300;
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+@media (max-width: 1420px) {
+  .privacy-area .header-text {
+    width: 70%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1320px) {
+  .privacy-area .header-text .left-text {
+    margin-top: 50%;
+  }
+  .privacy-area .header-text {
+    width: 50%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .privacy-area {
+    height: auto;
+  }
+  .privacy-area .header-text {
+    width: 92%;
+    padding-top: 793px;
+  }
+  .privacy-area .header-text .left-text {
+    margin-top: 5%;
+    transform: none !important;
+  }
+}
+@media (max-width: 810px) {
+  .privacy-area {
+    background-size: contain;
+  }
+
+  .privacy-area .header-text {
+    padding-top: 100%;
+    margin-left: 0;
+  }
+
+  .container-fluid .col-md-12 {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*
+---------------------------------------------
+terms
+---------------------------------------------
+*/
+.terms-area {
+  min-height: 550px;
+  /*background-image: url(../images/banner-bg.png);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: left top;*/
+  background-image: url(../images/banner-bg-generic-2.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  /*background-size: cover;*/
+  width: 100%;
+}
+
+.terms-area .header-text .left-text {
+  position: relative;
+  align-self: center;
+  margin-top: 190%;
+  transform: perspective(1px) translateY(-30%) !important;
+}
+
+.terms-area .header-text h1 {
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #191a20;
+}
+
+.terms-area .header-text h1 em {
+  font-style: normal;
+  color: #3C9EFF;
+}
+
+.terms-area .header-text p {
+  font-weight: 300;
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+@media (max-width: 1420px) {
+  .terms-area .header-text {
+    width: 70%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1320px) {
+  .terms-area .header-text .left-text {
+    margin-top: 50%;
+  }
+  .terms-area .header-text {
+    width: 50%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .terms-area {
+    height: auto;
+  }
+  .terms-area .header-text {
+    width: 92%;
+    padding-top: 793px;
+  }
+  .terms-area .header-text .left-text {
+    margin-top: 5%;
+    transform: none !important;
+  }
+}
+@media (max-width: 810px) {
+  .terms-area {
+    background-size: contain;
+  }
+
+  .terms-area .header-text {
+    padding-top: 100%;
+    margin-left: 0;
+  }
+
+  .container-fluid .col-md-12 {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+}
+
+/*
+---------------------------------------------
 about
 ---------------------------------------------
 */
@@ -1149,8 +1337,16 @@ footer .sub-footer a:hover {
 	color: #F8D248;
 }
 
+footer .sub-footer .footer-nav a {
+  color: #191a20;
+}
+
+footer .sub-footer .footer-nav a:hover {
+  color: #191a20;
+}
+
 footer .sub-footer p {
-  color: #ff445d;
+  color: #191a20;
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 0.5px;

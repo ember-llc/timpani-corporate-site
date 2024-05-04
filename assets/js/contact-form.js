@@ -37,7 +37,7 @@
     }
 
     function logFeedback(name, email, message) {
-        var url = 'https://timpani.bibek.io/timpani/standard/sales/feedback';
+        var url = 'https://timpanieducation.com/api/timpani/timpani/v1/standard/sales/feedback';
         var method = 'POST';
 
         var xhr = createHTTPRequest();
